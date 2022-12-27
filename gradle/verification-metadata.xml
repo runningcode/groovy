@@ -89,7 +89,10 @@
             <trusting group="xml-apis"/>
          </trusted-key>
          <trusted-key id="2e3a1affe42b5f53af19f780bcf4173966770193" group="org.jetbrains" name="annotations" version="13.0"/>
-         <trusted-key id="314fe82e5a4c5377bca2edec5208812e1e4a6db0" group="com.gradle" name="gradle-enterprise-gradle-plugin" version="3.12"/>
+         <trusted-key id="314fe82e5a4c5377bca2edec5208812e1e4a6db0">
+            <trusting group="com.gradle"/>
+            <trusting group="com.gradle" name="gradle-enterprise-gradle-plugin" version="3.12"/>
+         </trusted-key>
          <trusted-key id="31fae244a81d64507b47182e1b2718089ce964b8" group="com.thoughtworks.qdox" name="qdox" version="1.12.1"/>
          <trusted-key id="32118cf76c9ec5d918e54967ca80d1f0eb6ca4ba" group="org.codehaus.plexus"/>
          <trusted-key id="32d98ffd50617f6ed7e6abd236feecf06c2da10b" group="biz.aQute.bnd" name="biz.aQute.bndlib" version="5.2.0"/>
